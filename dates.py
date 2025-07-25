@@ -46,3 +46,5 @@ print(end_timedelta - start_timedelta)  # Subtract the two timedelta objects
 print(start_timedelta + end_timedelta)  # Add the two timedelta objects
 print(start_timedelta * 2)  # Multiply the timedelta by 2
 print(start_timedelta / 2)  # Divide the timedelta by 2
+
+print(start_timedelta.total_seconds())  # Get the total number of seconds in the timedelta
