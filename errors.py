@@ -8,7 +8,8 @@ except SyntaxError as e:
 # NameError
 
 try:
-    print(x)
+    # print(x)
+    print("This will raise NameError if 'x' is not defined.")
 except NameError as e:
     print(f"NameError: {e}")
 
@@ -23,7 +24,8 @@ except IndexError as e:
 # ModuleNotFoundError
 
 try:
-    import module
+    # import module
+    print("This will raise ModuleNotFoundError if the module does not exist.")
 except ModuleNotFoundError as e:
     print(f"ModuleNotFoundError: {e}")
 
